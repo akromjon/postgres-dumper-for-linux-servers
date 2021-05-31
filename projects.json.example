@@ -1,0 +1,9 @@
+[
+    {
+        "domain":"example.com",
+        "db_name":"example",
+        "db_username":"example",
+        "db_password":"example123456"
+    } 
+         
+]
