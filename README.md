@@ -1,6 +1,6 @@
 **Automatically BackupTool for postgresql 9.4 | 9.6 on Servers**
 
-This tool uses gmail account and sends dumped sqls to email as an attachment. You can use this tool in servers and cron it to send database dumps automatically. There is a file called .env which are required to handle backups. There is another important file called **"projects.json"** to handle multiple backups. All backup files are stored in backups folder and all them are deleted after the email sent. 
+This tool uses gmail account and sends dumped sqls to email as an attachment. You can use this tool in servers and cron it to send database dumps automatically. There is a file called .env which are configured to handle backups. There is another important file called **"projects.json"** to handle multiple backups. All backup files are stored in backups folder and all them are deleted after the email sent. 
 >projects.json
 >-domain: '[domain of your project]'
 >-db_name: '[database name of the project]'
